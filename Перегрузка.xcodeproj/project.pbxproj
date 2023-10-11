@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBAF309A2AD72E1C00AD035F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBAF30992AD72E1C00AD035F /* main.cpp */; };
+		DBAF30A22AD72E5100AD035F /* Дата.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBAF30A02AD72E5100AD035F /* Дата.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DBAF30962AD72E1C00AD035F /* Перегрузка */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Перегрузка"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAF30992AD72E1C00AD035F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DBAF30A02AD72E5100AD035F /* Дата.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Дата.cpp"; sourceTree = "<group>"; };
+		DBAF30A12AD72E5100AD035F /* Дата.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Дата.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DBAF30992AD72E1C00AD035F /* main.cpp */,
+				DBAF30A02AD72E5100AD035F /* Дата.cpp */,
+				DBAF30A12AD72E5100AD035F /* Дата.hpp */,
 			);
 			path = "Перегрузка";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBAF309A2AD72E1C00AD035F /* main.cpp in Sources */,
+				DBAF30A22AD72E5100AD035F /* Дата.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
